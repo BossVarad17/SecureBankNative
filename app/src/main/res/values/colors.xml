@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core palette -->
+    <color name="bg_deep">#080D1A</color>
+    <color name="bg_surface">#0D1424</color>
+    <color name="bg_card">#111827</color>
+    <color name="bg_card_elevated">#161F30</color>
+    <color name="bg_input">#0A0F1E</color>
+
+    <!-- Accent — electric indigo -->
+    <color name="accent">#4F6EF7</color>
+    <color name="accent_dim">#1E2E6B</color>
+    <color name="accent_glow">#3D5BDB</color>
+
+    <!-- Text -->
+    <color name="text_primary">#F0F4FF</color>
+    <color name="text_secondary">#8896B3</color>
+    <color name="text_muted">#3D4F6B</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Semantic -->
+    <color name="credit_green">#10B981</color>
+    <color name="credit_green_dim">#052E1C</color>
+    <color name="debit_red">#F43F5E</color>
+    <color name="debit_red_dim">#2D0A12</color>
+    <color name="warning_amber">#F59E0B</color>
+
+    <!-- Borders & dividers -->
+    <color name="border">#1A2540</color>
+    <color name="divider">#131C30</color>
+
+    <!-- Bottom nav -->
+    <color name="bottom_nav_selected">#4F6EF7</color>
+    <color name="bottom_nav_unselected">#3D4F6B</color>
+    <color name="bottom_nav_tint">#3D4F6B</color>
+
+    <!-- Aliases kept for compatibility -->
+    <color name="primary_purple">#4F6EF7</color>
+    <color name="primary_purple_light">#7B93FA</color>
+    <color name="primary_purple_dark">#3D5BDB</color>
+    <color name="bg_dark">#080D1A</color>
+    <color name="card_bg">#111827</color>
+    <color name="text_hint">#8896B3</color>
+    <color name="divider_color">#1A2540</color>
+</resources>

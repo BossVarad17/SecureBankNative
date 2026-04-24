@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.SecureBank" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent</item>
+        <item name="colorPrimaryVariant">@color/accent_glow</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/credit_green</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="android:windowBackground">@color/bg_deep</item>
+        <item name="android:statusBarColor">@color/bg_deep</item>
+        <item name="android:navigationBarColor">@color/bg_surface</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <!-- TextInputLayout default style -->
+        <item name="textInputStyle">@style/SecureBankInput</item>
+    </style>
+
+    <style name="Theme.SecureBank.Splash" parent="Theme.SecureBank">
+        <item name="android:windowBackground">@color/bg_deep</item>
+    </style>
+
+    <style name="SecureBankInput" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/border</item>
+        <item name="boxStrokeWidth">1dp</item>
+        <item name="boxBackgroundColor">@color/bg_input</item>
+        <item name="hintTextColor">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_muted</item>
+        <item name="boxCornerRadiusTopStart">10dp</item>
+        <item name="boxCornerRadiusTopEnd">10dp</item>
+        <item name="boxCornerRadiusBottomStart">10dp</item>
+        <item name="boxCornerRadiusBottomEnd">10dp</item>
+    </style>
+
+    <style name="SecureBankButton" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/accent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="cornerRadius">12dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="BottomNavTextActive" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">11sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BottomNavTextInactive" parent="@android:style/TextAppearance.Small">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
+
+</resources>
